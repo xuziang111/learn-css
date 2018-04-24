@@ -207,6 +207,13 @@
         </div>
         <script>
             let container=document.getElementsByClassName("container")
+            container.addEventListener('mousedown',()=>{
+                setTimeout(()=>{container.className="active container"},0)
+    
+            })
+            container.addEventListener('mouseup',()=>{
+                container.className="container"
+            })
         </script>
     </body>
 </html>
