@@ -1,0 +1,30 @@
+body{
+    display:flex;
+    height:100vh;
+    justify-content: space-around;
+    align-items: center;
+}
+.box{
+    background:#F9F7F8;
+    border:1px solid #EFEFEF;
+    width:100px;
+    height:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-1{
+    transform: skew(30deg);
+}
+.box-2{
+    transform: scale(0.5,1);
+}
+.box-3{
+    transform: rotate(45deg) ;
+}
+.box-4{
+    transform: translate(10px,20px);
+}
+.box-5{
+    transform: skew(30deg) scale(0.5,1) rotate(45deg) translate(10px,20px);
+}
