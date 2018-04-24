@@ -1,5 +1,5 @@
-switchButton = document.getElementById("switchButton")
-switchTitle = document.getElementById("switchTitle")
+var switchButton = document.getElementById("switchButton")
+var switchTitle = document.getElementById("switchTitle")
 
 switchButton.addEventListener('mousedown',()=>{
     setTimeout(()=>{switchButton.className="active"},0)
